@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jo.omacheatsheet",
+  "name": "OmaCheatSheet",
+  "version": "1.0.0",
+  "author": "Jay O (@jayosays)",
+  "license": "MIT",
+  "description": "Fullscreen cheat sheet of the live Hyprland/Omarchy keybindings.",
+  "kinds": ["overlay", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OmaCheatSheet",
+    "description": "Opens a fullscreen cheat sheet of the system's current hotkeys.",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
